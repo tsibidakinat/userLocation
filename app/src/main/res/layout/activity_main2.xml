@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.natasa_tsibi.it21240.Activity2">
+
+    <TextView
+        android:id="@+id/selectID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner_User"
+        android:layout_centerHorizontal="true"
+        android:text="@string/select_userid"
+        android:textColor="#116873"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+    <Spinner
+        android:id="@+id/spinner_User"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/selectDt"
+        android:layout_alignLeft="@+id/spinner_Dt"
+        android:layout_alignStart="@+id/spinner_Dt"
+        android:layout_marginBottom="38dp"
+        android:labelFor="@id/selectID"
+        android:popupBackground="#5c5b5b"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/selectDt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/spinner_Dt"
+        android:layout_centerHorizontal="true"
+        android:text="@string/select_dt"
+        android:textColor="#b91e33"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+    <Spinner
+        android:id="@+id/spinner_Dt"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_search"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="117dp"
+        android:labelFor="@id/selectDt"
+        android:popupBackground="#5c5b5b"
+        android:spinnerMode="dropdown" />
+
+    <Button
+        android:id="@+id/button_search"
+        android:background="#FF98AC01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="65dp"
+        android:text="@string/search"
+        android:textColor="#605d5d"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">it21240</string>
+    <string name="enter_latitude_here">Enter latitude here...</string>
+    <string name="enter_timestamp_here">Enter timestamp here...</string>
+    <string name="enter_longitude_here">Enter longitude here...</string>
+    <string name="enter_your_userid_here">Enter your userID here...</string>
+    <string name="userid">UserID:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="timestamp">Timestamp:</string>
+    <string name="latitude">Latitude:</string>
+    <string name="insert_data">INSERT&#10;DATA</string>
+    <string name="next_view">NEXT&#10;VIEW</string>
+    <string name="select_userid">Select UserID:</string>
+    <string name="select_dt">Select Timestamp:</string>
+    <string name="search">Search</string>
+</resources>
